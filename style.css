@@ -12,11 +12,14 @@ padding: 0;
 }
 /* headin part  */
 
-h2{
-  font-size: 40px; font-weight: 700;
+/* h2{
+  font-size: 40px; font-weight: 700; 
 
+} */
+
+p{
+  font-size: 50px;
 }
-
 
 nav ul {
     list-style: none;
@@ -278,7 +281,7 @@ height : 40px ;
  }
 
  .opinion-table td {
-  text-align: start c; 
+  text-align: start ; 
 }
 
 .selection {
@@ -389,6 +392,7 @@ height : 40px ;
 .second-news-card {
   align-items: center;
   flex-direction: row-reverse; 
+
 }
 
 
@@ -396,13 +400,14 @@ height : 40px ;
 
 
 .dan-options {
+
   display: flex;
-  justify-content: space-around;
+     justify-content: space-around;
   margin-bottom: 20px;
 }
 
 .dan-butn {
-  padding: 15px 30px;
+  padding:   15px 30px;
   border: 1px solid #ccc;
   background-color: #fff;
   border-radius: 8px;
@@ -412,7 +417,7 @@ height : 40px ;
   cursor: pointer;
   border: 2px solid #27ae60;
 
-  background-color: #ffffff;
+    background-color:   #ffffff;
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.01s ease;
 
@@ -426,7 +431,8 @@ height : 40px ;
 
 
 
-.dan-butn.selected {
+.dan-butn.selected    {
+  
   background-color: #d6f5d6;
   border: 2px solid #27ae60;
 }
@@ -442,8 +448,10 @@ height : 40px ;
   width: 100%;
   height: 64px;
   padding: 10px;
-  font-size: 16px;
-  margin-bottom: 20px;
+
+
+  font-size:16px;
+     margin-bottom: 20px;
   border: 2px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
@@ -453,33 +461,34 @@ height : 40px ;
 .dan-submit {
   display: block;
   width: 151px;
+
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
   color: #fff;
   background-color: #27ae60;
   border: none;
-  border-radius: 5px;
+       border-radius: 5px;
   cursor: pointer;
-  margin: 0 auto; 
-  cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.01s ease;
+  margin:    0 auto; 
+  cursor:pointer;
+  transition:   transform 0.3s ease, background-color 0.01s ease;
   border: 2px solid black;
 
 }
-.dan-submit:hover {
+.dan-submit:hover{
   transform: scale(1.1); 
     background-color: rgb(2, 243, 54);
 }
 
 
 
-.subscribe-section {
+.subscribe-section{
   margin-top: 40px;
-  background-color: #d6f5d6;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
+  background-color:#d6f5d6;
+      border-radius: 10px;
+  padding:   20px;
+  text-align:   center;
   font-weight: 400;
 
   cursor: pointer;
@@ -487,48 +496,51 @@ height : 40px ;
   border: 2px solid black;
 }
 
-.subscribe-input {
+.subscribe-input  {
   width: 60%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+     border: 1px solid #ccc;
+  border-radius:5px;
   margin-bottom: 10px;
-}
+ }
 
-.subscribe-btn {
+.subscribe-btn  {
   margin-left: 20px;
+
+
   padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #27ae60;
+    font-size:    16px;
+  font-weight: bold   ;
+   
+  background-color:    #27ae60;
   color: #fff;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+    cursor: pointer;
 
 
   transition: transform 0.3s ease, background-color 0.01s ease;
-  border: 2px solid black;
+   border: 2px solid black;
 }
 
 
-.subscribe-btn:hover {
+.subscribe-btn:hover  {
   transform: scale(1.1); 
-    background-color: rgb(2, 243, 54);}
+    background-color:  rgb(2, 243, 54);}
 
 .footer {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 32px;
+text-align: center ;
+    margin-top: 30px ;
+  font-size :    32px;
   font-weight: 700;
   color: #000000;
 }
 
 .social-links {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+    justify-content: center;
+   gap: 15px;
   margin-top: 10px;
 }
 
