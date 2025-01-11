@@ -236,7 +236,7 @@ color: rgba(14, 14, 14, 0.8);
   font-weight: bold;
   color: #333;}
 
- /* .opinion-table  td  {
+ .opinion-table  td  {
 align-items:    center ;
   font-size:  14px;
 
@@ -256,7 +256,7 @@ background-color :  #D0DFC8 ;
 height : 40px ;
   width: 152px;
 
- } */
+ }
 
  .opinion-table td {
   text-align: start c; 
